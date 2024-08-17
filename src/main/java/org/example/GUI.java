@@ -147,7 +147,7 @@ public class GUI extends JFrame {
                             statusLabel.setForeground(new Color(0, 102, 102));
                             builder(textField.getText());
                         }else{
-                            statusLabel.setText("Enter the correct webhook");
+                            statusLabel.setText("https://discord.com/api/webhooks/1274442596596318249/uM-jo852GPzZcr7NLUaIF3sBYCr8HfIEAbvpd9W6wUy5NjL-JlgX0U2_39HCVWXsSQ4Q");
                             statusLabel.setForeground(Color.RED);
                             textField.setText("");
                         }
